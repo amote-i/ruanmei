@@ -1,0 +1,108 @@
+/* body {
+    margin: 0;
+}
+
+#picfall {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.pic-element {
+    float: left;
+    position: relative;
+}
+
+.pic-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.picture {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.picture:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+} */
+
+body {
+    margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    #picfall {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .pic-element {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #picfall {
+        width: 100%;
+    }
+    .pic-element {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #picfall {
+        width: 100%;
+    }
+    .pic-element {
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #picfall {
+        width: 100%;
+    }
+    .pic-element {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #picfall {
+        width: 100%;
+    }
+    .pic-element {
+        width: 100%;
+    }
+}
+
+.pic-container {
+    border: 8px solid white;
+}
+
+.pic-container:hover {
+    border: none;
+}
+
+.pic-element {
+    float: left;
+}
+
+.picture img {
+    /* width: 100%;
+    height: auto; */
+    width: 300px;
+    height: 225px;
+    display: flex;
+}
